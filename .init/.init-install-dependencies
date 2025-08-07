@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/industrial-inventory-management-system-1506/stock_maintenance_frontend"
+}
