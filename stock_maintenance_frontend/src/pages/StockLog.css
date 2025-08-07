@@ -1,0 +1,36 @@
+.stocklog {
+  padding: 28px 24px 20px 6px;
+}
+.stocklog-controls {
+  margin-bottom: 15px;
+}
+.stocklog-filter {
+  border-radius: 7px;
+  padding: 7px 13px;
+  border: 1px solid var(--border-color, #e9ecef);
+  font-size: 1em;
+}
+.stocklog-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 7px 0 rgba(0,0,40,0.06);
+}
+.stocklog-table th,
+.stocklog-table td {
+  padding: 11px 13px;
+  text-align: left;
+}
+.stocklog-table th {
+  background: var(--secondary, #424242);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1em;
+}
+.stocklog-in { color: #388e3c; font-weight: 700;}
+.stocklog-out { color: #e53935; font-weight: 700;}
+@media (max-width: 900px) {
+  .stocklog { padding: 11px 3vw 10px 3vw; }
+  .stocklog-table th, .stocklog-table td { font-size: .99em; padding: 7px 4px;}
+}

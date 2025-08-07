@@ -1,0 +1,21 @@
+.reports {
+  padding: 36px 44px 28px 5px;
+}
+.reports h2 {
+  color: var(--primary, #1976d2);
+}
+.reports p {
+  opacity: .83;
+  font-size: 1.04em;
+  margin-bottom: 15px;
+}
+.reports .btn {
+  background: var(--primary, #1976d2);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 9px 21px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.06em;
+}

@@ -21,12 +21,30 @@
   --button-text: #ffffff;
 }
 
+:root {
+  --primary: #1976d2;
+  --secondary: #424242;
+  --accent: #ffb300;
+  --bg-primary: #fff;
+  --bg-secondary: #f8f9fa;
+  --text-primary: #212121;
+  --text-secondary: #424242;
+  --border-color: #e9ecef;
+}
+
 .App {
-  text-align: center;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
   min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+}
+.main-content {
+  flex: 1;
+  min-width: 0;
+  margin-left: 216px;
+  position: relative;
+  background: var(--bg-primary, #fff);
 }
 
 .App-logo {

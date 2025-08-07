@@ -1,0 +1,48 @@
+.app-header {
+  height: 63px;
+  background: var(--bg-primary, #fff);
+  color: var(--primary, #1976d2);
+  border-bottom: 1.5px solid var(--border-color, #e9ecef);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 36px 0 236px;
+  font-size: 1.13rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.notification-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.5em;
+  color: var(--primary, #1976d2);
+}
+.notif-badge {
+  background: var(--accent, #ffb300);
+  color: #fff;
+  border-radius: 9px;
+  font-size: 0.81em;
+  padding: 1.7px 7px;
+  position: absolute;
+  top: -7px; right: -5px;
+  font-weight: 700;
+}
+@media (max-width: 900px) {
+  .app-header {
+    padding-left: 0;
+    padding-right: 14px;
+    min-width: 360px;
+  }
+}
